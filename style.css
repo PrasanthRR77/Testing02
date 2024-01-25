@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  overflow: hidden; /* Clear float */
+}
+
+.main-content {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-sizing: border-box;
+}
